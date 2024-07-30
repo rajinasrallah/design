@@ -1,0 +1,32 @@
+#picAlbum {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    flex-direction: column; /* Stack the image and text vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    position: relative; /* Make sure it doesn't disrupt the layout */
+    margin-bottom: 0;
+}
+
+.album {
+    width: 100%;
+    box-shadow: 10px 0px 0px c0c0c0;
+}
+
+.firstText {
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    color: #fff;
+    margin-left: 10px;
+}
+.carName {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.carDiscription{
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 0;
+}

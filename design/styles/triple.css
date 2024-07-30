@@ -1,0 +1,41 @@
+.triple {
+    background-color: #1c1c1c;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+    padding: 35px 50px; /* Shorthand for padding */
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+.tripleItem {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin: 30px; /* Space between items */
+}
+
+.triplePic {
+    width: 330px;
+    height: 550px;
+    border: 2px solid rgba(0, 0, 0, 0.788);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.541);
+}
+
+.tripleButton {
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease;
+    text-align: center; /* Center the text */
+}
+
+/* Hover effect for button */
+.tripleButton:hover {
+    text-decoration: underline; /* Underline the text */
+}
