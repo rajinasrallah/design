@@ -1,0 +1,111 @@
+.longText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    left: -7vw;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid-item {
+    display: flex;
+    background-color: #ffffff00;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 32vw;
+    line-height: 2vw;
+    margin-bottom: 1.2vw;
+}
+
+.grid-item img {
+    max-width: 90%;
+}
+
+.longText h1 {
+    font-size: 6vw; /* Responsive font size */
+    line-height: 6vw; /* Responsive line height */
+    font-weight: 700;
+    letter-spacing: 0px;
+    width: 100%; /* Full width for better responsiveness */
+    max-width: 35vw; /* Ensures max width */
+    margin-top: 5vw; 
+    margin-bottom: 5vw;
+}
+
+.subTitle {
+    font-size: 1.5vw; /* Responsive font size */
+    line-height: 2vw; /* Responsive line height */
+    font-weight: 750;
+    letter-spacing: 0px;
+    width: 100%; /* Full width for better responsiveness */
+    max-width: 18vw; /* Ensures max width */
+    margin: 0;
+}
+
+.regular {
+    font-size: 1vw;
+    width: 27vw;
+}
+
+.longText h2 {
+    font-size: 6vw; /* Responsive font size */
+    line-height: 6vw; /* Responsive line height */
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .grid-item {
+        width: 100%;
+        line-height: 3vw;
+        padding: 10px;
+    }
+
+    .longText {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .longText h1, .longText h2 {
+        font-size: 8vw;
+        line-height: 8vw;
+        max-width: 100%;
+    }
+
+    .subTitle {
+        font-size: 3vw;
+        line-height: 3.5vw;
+        max-width: 100%;
+    }
+
+    .regular {
+        font-size: 2.5vw;
+        width: 90%;
+    }
+}
+#desktop{
+    position:relative;
+    align-self: center;
+    left: 8vw;
+    width: 80vw;
+}

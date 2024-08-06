@@ -1,0 +1,36 @@
+.title {
+    background-image: url("imgs/interior5_about_bg_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    height: 50vw; /* This maintains the aspect ratio */
+    padding: 8vw 7vw 10vw 10vw; /* Adjusted for responsive padding */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+    display: flex; /* Added for better control of child elements */
+    align-items: center; /* Vertically centers child elements */
+}
+
+.title h1 {
+    font-size: 6vw; /* Responsive font size */
+    line-height: 6vw; /* Responsive line height */
+    font-weight: 700;
+    letter-spacing: 0px;
+    width: 100%; /* Full width for better responsiveness */
+    max-width: 15vw; /* Ensures max width */
+    margin: 0; /* Removes default margin */
+}
+
+/* Optional Media Query for Fine-tuning on Smaller Screens */
+@media (max-width: 768px) {
+    .title {
+        height: auto; /* Allows height to adjust based on content */
+        padding: 20vw 5vw 15vw 5vw; /* Adjusted padding for smaller screens */
+    }
+
+    .title h1 {
+        font-size: 10vw; /* Larger font size for smaller screens */
+        line-height: 12vw; /* Larger line height for smaller screens */
+        max-width: 100%; /* Allows full width on smaller screens */
+    }
+}

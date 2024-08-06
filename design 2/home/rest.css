@@ -1,0 +1,206 @@
+.white {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 55vw;
+}
+
+.girl {
+    width: 90%;
+    max-width: 40vw;
+    height: 55vw;
+    margin: 0;
+}
+.howTo{
+    display: flex;
+    justify-content: center;
+
+}
+.step{
+    width: 30vw;
+}
+.aboutMe {
+    padding: 8vw;
+    color: rgb(31, 30, 30);
+    flex: 1;
+    min-width: 40vw;
+}
+
+.aboutMe p {
+    color: rgb(31, 30, 30);
+}
+
+.aboutMe h1 {
+    font-size: 2.5vw;
+    font-weight: 800;
+    margin-bottom: 2vw;
+}
+
+.aboutMe h2 {
+    font-size: 1.3vw;
+    font-weight: normal;
+    margin-bottom: 1.8vw;
+    line-height: 1.5;
+}
+
+.mini {
+    font-size: 1.1vw;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 3.6vw;
+}
+
+#black {
+    color: white;
+    background-color: rgb(31, 30, 30);
+    padding: 0.8vw 1.7vw;
+    border: none;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.steps {
+    background-color: #eeedec;
+    padding: 70px 20px;
+}
+
+#stepsb {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#stepsb h1 {
+    color: black;
+    font-size: 1.4vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .white {
+        height: 900px;
+        flex-direction: row;
+    }
+    .aboutMe {
+        padding: 140px 40px 80px 40px;
+        max-width: 600px;
+    }    
+    #stepsb h1 {
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+}
+.last {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 20px;
+    border-top: 1px solid #000000;
+}
+
+.upper {
+    text-align: center;
+    width: 100%;
+    max-width: 650px;
+    padding: 20px;
+}
+
+.upper h2 {
+    font-size: 13px;
+    font-weight: 750;
+    color: #000000;
+}
+
+.upper h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.lower img {
+    width: 150px;
+    height: 45px;
+    margin: 10px 0;
+}
+
+.lastText {
+    width: 100%;
+    max-width: 243px;
+    margin: 20px;
+    text-align: center;
+}
+
+#lastb {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lastText h1 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.lastText h2 {
+    font-size: medium;
+    font-weight: 400;
+    line-height: 30px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .lower {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .lower img {
+        margin: 10px 30px;
+    }
+
+    .lastText {
+        text-align: left;
+        margin: 20px 35px;
+    }
+
+    .lastText h2 {
+        width: 150px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .upper h1 {
+        font-size: 30px;
+        margin: 50px 0;
+    }
+
+    .lastText h1 {
+        font-size: 24px;
+    }
+
+    .lastText h2 {
+        font-size: 18px;
+    }
+
+}

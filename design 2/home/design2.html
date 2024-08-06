@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="top.css"> 
+    <link rel="stylesheet" href="rest.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="popp.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="header">
+        <img id="pic1" src="imgs/interior5_logo.png" alt="Aston Martin">
+        <button id="menu" onclick="openMenu()" aria-label="Toggle Sidebar">
+            <img id="hamburger" src="imgs/Capture.PNG" alt="Menu Icon">
+        </button>
+    </div>
+    <div class="sidebar">
+        <button class="close-btn" onclick="closeMenu()">&times;</button>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">Details</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </div>   
+
+
+    <div class="yellowPart">
+        <p class="T1">INTERIOR DESIGN</p>
+        <p class="T2">I make space useful & beautiful</p>
+        <p class="T3"><b><u>Lorem ipsum dolor</u> sit amet, consectetur adipisicing</b> <br> elit, sed de eiusmod tempor incididunt ut labore et <br> dolocru</p>
+        <button id="videoButton" type="button" onclick="videoPopupClick()">
+            <img id="img2" src="imgs/interior5_slider_video.jpg">
+        </button>
+    </div>       
+    <img id="img1" src="imgs/interior5_slider_bg.jpg"> 
+    
+    
+    <div class="grayArea">
+        <p class="mini"> SHOWCASE </p>
+        <p class = 'grayText'><b>Ret dolore magna<u>  aliqua enut enim ad</u> minim veniam, quis nostrud exercitatat.</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor</p>
+        <div id="picAlbum">
+            <div class="slider">
+                <!-- div1  -->
+                    <img class="slide" src="imgs/slider1.jpg" alt="Car Image">
+                <!-- div 2-->   
+                    <img class="slide" src="imgs/slider4.jpg" alt="Car Image">
+                <!-- div3 -->
+                    <img class="slide" src="imgs/slide2.jpg" alt="Car Image">
+                <!--- div4 -->
+                    <img class="slide" src="imgs/slide4.jpg" alt="Car Image">
+            </div>
+            <div class="selector">
+                <button id="one" class="circle"><span></span></button>
+                <button id="two" class="circle" ><span></span></button>
+                <button id="three" class="circle" ><span></span></button>
+                <button id="four" class="circle"><span></span></button>                
+            </div>
+        </div>
+    </div>
+    <div class="white">
+        <img class="girl" src="imgs/girl.jpg">
+        <div class="aboutMe">
+            <p class="mini" id="abtMeTxt">ABOUT ME.</p>
+            <h1>Exercitation ullamco laboris nisi</h1>
+            <h2>
+                <b>Ret dolore magna aliqua.<u> Ut enim ad minim</u> veniam, quis nostrud exercitation ullamco laboris nisi ut.</b> Duis aute irure dolor in reprehein voluptate velit esse cillum dolor
+            </h2>
+                <button id="black">READ MORE</button>
+        </div>
+    </div>
+    <div class="steps">
+        <div class="howTo">
+            <img class="step" id="step1" src="imgs/step1.PNG">
+            <img class="step" id="step2" src="imgs/step2.PNG">
+            <img class="step" id="step3" src="imgs/step3.PNG">
+        </div>
+        
+        <button id="stepsb"> <h1><u>HOW IT WORKS</u></h1></button>
+    </div>
+    <div class="last">
+        <div class="upper">
+            <h2 class="mini">INTERIOR DESIGN</h2>
+        <h1><b>Ret dolore magna<u> aliqua enut enim ad</u> minim veniam, quis nostrud exercitatat.</b>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor</h1>
+        <button id="lastb"><img src="imgs/last.PNG"></button>
+        </div>
+        <div class="lower">
+            <img src="imgs/interior5_logo.png">
+            <div class="lastText">
+                <h1>
+                    Ret dolore
+                </h1>
+                <h2>
+                    Eiusmod tempor
+                    Incididunt
+                </h2>
+            </div>
+            <div class="lastText">
+                <h1>
+                    Quantum
+                </h1>
+                <h2>
+                    Eiusmod tempor
+                    Incididunt
+                </h2>
+            </div>    
+            <div class="lastText">
+                <h1>
+                    Lorem ipsum
+                </h1>
+                <button id="facebook"></button>
+                <button id="twitter"></button>
+                <button id="instagram"></button>
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+<!-- Overlay -->
+
+<div id="overlay" class="overlay"></div>
+<!-- Popup Container -->
+<div id="popup" class="popup">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <div id="videoPopup" class="video-popup">
+        <!-- YouTube Video Embed -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0jjTU-H43M?si=gEOM44U1rOwm3z0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
